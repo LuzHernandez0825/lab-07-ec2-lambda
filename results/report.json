@@ -1,0 +1,79 @@
+{
+  "documents": 101,
+  "runs_by_machine": [
+    {
+      "host": "169.254.6.193",
+      "books": 1
+    },
+    {
+      "host": "Luzs-MacBook-Air.local",
+      "books": 100
+    },
+    {
+      "host": "ip-172-31-37-20",
+      "books": 100
+    }
+  ],
+  "last_processed": [
+    {
+      "_id": "pg98.txt",
+      "author": "Charles Dickens",
+      "bucket": "public-sfx8bt",
+      "language": "English",
+      "runs": [
+        {
+          "host": "ip-172-31-37-20",
+          "at": "2026-11-18 02:32:18.340000"
+        },
+        {
+          "host": "Luzs-MacBook-Air.local",
+          "at": "2026-11-18 03:26:30.984000"
+        }
+      ],
+      "title": "A Tale of Two Cities",
+      "unique_words": 9698,
+      "vocabulary_ratio": 0.07,
+      "word_count": 138490
+    },
+    {
+      "_id": "pg963.txt",
+      "author": "Charles Dickens",
+      "bucket": "public-sfx8bt",
+      "language": "English",
+      "runs": [
+        {
+          "host": "ip-172-31-37-20",
+          "at": "2026-11-18 02:32:18.148000"
+        },
+        {
+          "host": "Luzs-MacBook-Air.local",
+          "at": "2026-11-18 03:26:30.680000"
+        }
+      ],
+      "title": "Little Dorrit",
+      "unique_words": 14784,
+      "vocabulary_ratio": 0.0428,
+      "word_count": 345231
+    },
+    {
+      "_id": "pg95.txt",
+      "author": "Anthony Hope",
+      "bucket": "public-sfx8bt",
+      "language": "English",
+      "runs": [
+        {
+          "host": "ip-172-31-37-20",
+          "at": "2026-11-18 02:32:17.849000"
+        },
+        {
+          "host": "Luzs-MacBook-Air.local",
+          "at": "2026-11-18 03:26:29.680000"
+        }
+      ],
+      "title": "The prisoner of Zenda",
+      "unique_words": 5072,
+      "vocabulary_ratio": 0.0921,
+      "word_count": 55096
+    }
+  ]
+}

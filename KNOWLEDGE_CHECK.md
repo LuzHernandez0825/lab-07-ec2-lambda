@@ -13,8 +13,7 @@ Suppose your instance is running and has a public IP address, but `ssh` cannot c
 *Hint:* the lecture slides, and [class/07-ec2](https://github.com/ksiller/DS2022/blob/main/class/07-ec2/README.md), part [3. Launch an EC2 instance in the AWS Console + SSH](https://github.com/ksiller/DS2022/blob/main/class/07-ec2/README.md#3-launch-an-ec2-instance-in-the-aws-console--ssh-15-min) and [Troubleshooting](https://github.com/ksiller/DS2022/blob/main/class/07-ec2/README.md#troubleshooting).
 
 **Your answer:** Which path did you take in the console (service → page → tab)?
-
-...
+I went to EC2 then I went to the instance tab and in that tab I went to the security tab. There I was able to see the security group
 
 ## 2. Lambda: why didn't my function run?
 
@@ -25,8 +24,7 @@ Suppose you uploaded a new book to your bucket, but several minutes later MongoD
 *Hint:* the class demo [A Lambda function in the AWS Console](https://github.com/ksiller/DS2022/blob/main/demos/07-lambda/README.md), steps [5. Add the S3 trigger](https://github.com/ksiller/DS2022/blob/main/demos/07-lambda/README.md#5-add-the-s3-trigger) and [8. Preview: the same steps with Chalice](https://github.com/ksiller/DS2022/blob/main/demos/07-lambda/README.md#8-preview-the-same-steps-with-chalice).
 
 **Your answer:** Which path did you take in the console (service → page → tab)?
-
-...
+I went to the Lambda function, then I clicked on the configuration tab that allowed me to look at the triggers
 
 ## 3. Lambda: where do I find the error?
 
@@ -37,8 +35,7 @@ Suppose the function did start, but MongoDB still has no document for the book. 
 *Hint:* [Part 2, Step 7](README.md#step-7-upload-a-new-book) in the README, and the class demo [A Lambda function in the AWS Console](https://github.com/ksiller/DS2022/blob/main/demos/07-lambda/README.md), step [7. Check the CloudWatch logs](https://github.com/ksiller/DS2022/blob/main/demos/07-lambda/README.md#7-check-the-cloudwatch-logs).
 
 **Your answer:** Which path did you take in the console (service → page → tab)?
-
-...
+Still in the Lambda function I clicked the monitor tab then I clicked on the View CloudWatch logs button. There in the CloudWatch I clicked on the latest log in the stream. After that I just clicked the triangles until I found the specified part of the log.
 
 ## 4. EC2 or Lambda: a backlog or new uploads?
 
@@ -54,4 +51,5 @@ For comparison, typical times in this lab:
 
 **Your answer:**
 
-...
+I think for case A I would choose EC2 I think it would be way more cost efficient, especially since the books are all there in the bucket waiting to be analyzed and analyzing them would only take less than a second.
+For case B I would choose Lambda. I think it would make the most sense since the books are being uploaded sporadically by readers. the bucket is being updated by an outside source.
